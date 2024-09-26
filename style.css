@@ -1,0 +1,107 @@
+
+th,td{
+    padding: 10px;
+    min-width: 200px;
+}
+/* Element Selector */
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    color: darkolivegreen;
+}
+
+h4 {
+    color: blue;
+}
+
+div ~ p{
+    background-color: blueviolet;
+}
+
+/* class selector */
+.class {
+    padding-left: 5px;
+    color: brown;
+}
+
+/* id selector */
+#id{
+    padding-top: 5px;
+    padding-left: 5px;
+    color: blue;
+}
+
+/* combining Selector */
+.p1,.p2 {
+    padding-left: 5px;
+    padding-top: 5px;
+    color: chocolate;
+}
+
+/* selects at any of the children */
+.box li {
+    background-color: aquamarine;
+}
+
+
+/* attribute selector */
+div[class="content"]{
+    text-transform: capitalize;
+    color: blueviolet;
+    background-color: azure;
+
+}
+
+[class~="pick"]{
+    background-color:yellowgreen;
+}
+
+[href^="www"]{
+    color:brown;
+}
+
+[href$=".com"]{
+    color: green;
+}
+
+[class*="tainer"]{
+    font-weight: bolder;
+    background-color: bisque;
+}
+
+a{
+    text-decoration-style: dashed;
+}
+
+input[type=text]:focus{
+    padding: 10px;
+    background-color: aqua;
+}
+
+button:hover{
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: lightgreen;
+    color: darkorange;
+
+}
+
+input[type=text]:nth-child(even){
+    padding:20px;
+
+}
+
+textarea:first-of-type{
+    background-color: aquamarine;
+}
+
+textarea:last-of-type{
+    background-color: darkkhaki;
+}
+
+p[class=p]:first-line{
+    color: chartreuse;
+}

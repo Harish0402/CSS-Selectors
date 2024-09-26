@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+   <table>
+      <h1>CSS Selectors</h1>
+      <tr>
+         <th><h3>Element Selector</h3></th>
+      </tr>
+
+      <tr>
+         <th>h4</th>
+         <td><h4>H4 tag</h4></td>
+      </tr>
+
+      <tr>
+         <th>class selector</th>
+         <th>.class</th>
+         <td><p class="class">This is a class</p></td>
+      </tr>
+
+      <tr>
+         <th>id selector</th>
+         <th>.id</th>
+         <td><p id="id">This is id</p></td>
+      </tr>
+
+      <tr>
+         <th>combining selector</th>
+         <th>.p1 , .p2</th>
+         <td>
+            <p class="p1">Combining class p1</p>
+            <p class="p2">Combining class p2</p>
+         </td>
+      </tr>
+
+      <tr>
+         <th>.box li</th>
+         <td>
+            <div class="box">
+               <ul>
+                  <li>TV</li>
+                  <li>Selects the child of class="box"</li>
+               </ul>
+            </div>
+         </td>
+      </tr>
+
+      <tr>
+         <th><h3>Attribute Selector</h3></th>
+      </tr>
+
+      <tr>
+         <th>div[class="content"]</th>
+         <td>
+            <div class="content">
+               <p>It selects the div element that has the class="content"</p>
+            </div>
+         </td>
+      </tr>
+
+      <tr>
+         <th>[class~="tap"]</th>
+         <td>
+            <div class="tap pick">
+               <p>It selects all element that contains a space seperated list of words</p>
+            </div>
+         </td>
+      </tr>
+
+      <tr>
+         <th>[href^="www"]</th>
+         <td>
+            <a href="www.amazon.in">Amazon.in</a>
+         </td>
+      </tr>
+
+      <tr>
+         <th>[href$=".com"]</th>
+         <td>
+            <a href="https://google.com">Google.com</a>
+         </td>
+      </tr>
+
+      <tr>
+         <th>[class*="tainer"]</th>
+         <td>
+            <div class="container">
+               <p>selects the class which has the string tainer present</p>
+            </div>
+         </td>
+      </tr>
+
+      <tr>
+         <th><h3>Pseudo Class Selectors</h3></th>
+      </tr>
+
+      <tr>
+         <th>input:focus</th>
+         <td>
+            <input type="text" placeholder="Write about yourself">
+         </td>
+      </tr>
+
+      <tr>
+         <th>button:hover</th>
+         <td>
+            <button >Hover Me</button>
+         </td>
+      </tr>
+
+      <tr>
+         <th>input:nth-child(even)</th>
+         <td>
+            <input type="text" placeholder="Write about yourself">
+            <input type="text" placeholder="Write about yourself">
+         </td>
+      </tr>
+
+      <tr>
+         <th>input:first-of-type</th>
+         <td> 
+           <textarea name="about" id="a" placeholder="write Something"></textarea>
+           <textarea name="b" id="b" placeholder="write Something"></textarea>
+         </td>
+      </tr>
+
+      <tr>
+         <th>input:last-of-type</th>
+         <td>
+            <textarea name="a" id="c" placeholder="write Something"></textarea>
+         </td>
+      </tr>
+
+      <tr>
+         <th>p:first-line</th>
+         <td><i><p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, iusto necessitatibus quidem eum ipsa quisquam natus dolorem excepturi dolor amet debitis, voluptate ea neque explicabo? Pariatur non sed placeat sequi.</p></i></td>
+      </tr>
+
+
+
+
+
+
+   </table>
+
+</body>
+</html>
