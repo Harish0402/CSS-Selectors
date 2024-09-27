@@ -1,9 +1,10 @@
 
+
 th,td{
-    padding: 10px;
+    padding: 20px;
     min-width: 200px;
 }
-/* Element Selector */
+/* Element Selector
 
 h1 {
     padding: 10px;
@@ -102,6 +103,38 @@ textarea:last-of-type{
     background-color: darkkhaki;
 }
 
-p[class=p]:first-line{
+p[class=p]:first-line {
     color: chartreuse;
+}
+
+div[class=nthchild] p:nth-child(2){
+    color:blueviolet;
+    text-decoration: line-through;
+}
+
+[class=nthlast] p:nth-last-child(2){
+    background-color: hotpink;
+    font-size: x-large;
+}
+
+input[type=checkbox]:nth-of-type(1){
+    accent-color: green;
+}
+
+.ba::before{
+    content: '" ';
+    color: crimson;
+    font-size: 25px;
+}
+
+.ba::after{
+    content: ' "';
+    color: crimson;
+    font-size: 25px;
+}
+
+.ba{
+    font-size: 20px;
+    word-spacing: 8px;
+    text-align: center;
 }
